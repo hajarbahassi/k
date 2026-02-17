@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIYAD AUTO PRESTIGE | Excellence & Héritage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700;900&family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --red: #C8102E; --gold: #B4975A; --blue: #002349; --light: #f9f9f9; }
+        
+        body { 
+            font-family: 'Outfit', sans-serif; 
+            margin: 0; 
+            background: var(--light); 
+            color: var(--blue); 
+            overflow-x: hidden; 
+            scroll-behavior: smooth;
+            transition: background 1s ease, color 1s ease; /* Pour le changement de vibe */
+        }
+        
+        .top-bar { background: var(--red); color: white; text-align: center; padding: 10px; font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; }
+        
+        nav { background: white; padding: 10px 5%; border-bottom: 5px solid var(--red); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .nav-content { display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; }
+        .logo-container { display: flex; align-items: center; text-decoration: none; color: var(--blue); }
+        .logo-icon { background: var(--blue); color: var(--gold); width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border-radius: 8px; font-size: 1.5rem; margin-right: 12px; border: 2px solid var(--gold); }
+        .logo-text { font-family: 'Bodoni Moda', serif; font-size: 1.5rem; font-weight: 900; text-transform: uppercase; line-height: 1; }
+        .logo-text span { color: var(--red); display: block; font-size: 0.8rem; letter-spacing: 3px; }
+
+        .hero { height: 80vh; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('vieux-chauffeur.jpg.png') center/cover no-repeat; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white; }
+        .hero h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(2.5rem, 8vw, 5rem); margin: 0; }
+
+        /* Centrage des photos et de la grille */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 40px; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+            justify-content: center; /* Centre les éléments dans la grille */
+        }
+        
+        .card { 
+            background: white; 
+            border-radius: 12px; 
+            overflow: hidden; 
+            box-shadow: 0
